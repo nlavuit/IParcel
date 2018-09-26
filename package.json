@@ -1,0 +1,43 @@
+{
+  "name": "IParcel",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-core": "7.0.0-beta.3",
+    "fetch-everywhere": "^1.0.5",
+    "geolib": "^2.0.24",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.10",
+    "multireducer": "^3.1.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-fs": "^2.11.15",
+    "react-native-maps": "^0.21.0",
+    "react-native-maps-directions": "^1.6.0",
+    "react-navigation": "^2.5.2",
+    "react-navigation-redux-helpers": "^2.0.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "4.8.1",
+    "redux-persist-filesystem-storage": "^1.2.0",
+    "redux-persist-migrate": "4.1.0",
+    "redux-persist-transform-immutable": "4.3.0",
+    "redux-thunk": "^2.3.0",
+    "remote-redux-devtools-sp": "^0.5.13",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
